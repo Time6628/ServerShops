@@ -27,7 +27,7 @@ import java.util.Optional;
 public class BlockEventHandler {
 
     @Listener
-    public void onBlockInteract(InteractBlockEvent.Secondary.MainHand event, @First Player player) {
+    public void onBlockInteract(InteractBlockEvent.Secondary event, @First Player player) {
         Optional<Location<World>> blockLoc = event.getTargetBlock().getLocation();
 
         if (blockLoc.isPresent()) {

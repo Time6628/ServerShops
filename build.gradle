@@ -3,9 +3,9 @@ plugins {
 }
 
 group = 'me.nentify.servershops'
-version = '1.1.0'
+version = '4.1.0-1.1.0'
 description = 'Buy and sell items to and from the server'
 
 dependencies {
-    compile 'org.spongepowered:spongeapi:5.0.0-SNAPSHOT'
+    compile 'org.spongepowered:spongeapi:4.1.0'
 }
