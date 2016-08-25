@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'me.nentify.servershops'
-version = '4.1.0-1.1.0'
+version = '1.8.9-1.1.0'
 description = 'Buy and sell items to and from the server'
 
 dependencies {
